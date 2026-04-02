@@ -77,7 +77,7 @@ function Dashboard({ token, setToken, navigate }) {
           {/* Sidebar */}
           <aside className="space-y-6">
             <div className="rounded-2xl bg-[#121212] p-6 border border-white/5">
-              <h2 className="mb-6 text-xs font-black uppercase tracking-[0.2em] text-[#800020]">New Record</h2>
+              <h2 className="mb-6 text-xs font-black uppercase tracking-[0.2em] text-[#800020]">New Records</h2>
               <form onSubmit={handleAdd} className="space-y-4">
                 <div className="relative">
                   <Globe className="absolute left-3 top-3 text-gray-600" size={16} />
