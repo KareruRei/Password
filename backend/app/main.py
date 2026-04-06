@@ -11,7 +11,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     # Allow both common dev ports; use a stricter list in production
-    allow_origins=["http://localhost:5173", "http://localhost:5174"],
+    allow_origins=["https://invault.pages.dev/"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
