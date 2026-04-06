@@ -2,8 +2,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from .api.auth_routes import router as auth_router
-from .api.dashboard_routes import router as dashboard_router  # new dashboard routes
+from api.auth_routes import router as auth_router
+from api.dashboard_routes import router as dashboard_router  # new dashboard routes
 
 app = FastAPI()
 
