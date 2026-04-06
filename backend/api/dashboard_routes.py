@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException, Header
-from backend.db.database import db
-from backend.models.credential_model import SavedCredential
-from backend.core.security import decode_access_token, encrypt_value, decrypt_value
+from db.database import db
+from models.credential_model import SavedCredential
+from core.security import decode_access_token, encrypt_value, decrypt_value
 from datetime import datetime
 
 router = APIRouter()

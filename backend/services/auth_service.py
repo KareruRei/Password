@@ -1,5 +1,5 @@
-from backend.db.database import db
-from backend.core.security import hash_password, verify_password, create_access_token
+from db.database import db
+from core.security import hash_password, verify_password, create_access_token
 from datetime import datetime
 
 def create_user(user):
